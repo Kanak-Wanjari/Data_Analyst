@@ -1,0 +1,1 @@
+Solved issues regarding folder structure and github
