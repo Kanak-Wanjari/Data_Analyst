@@ -1,0 +1,146 @@
+{
+    "statusCode": 201,
+    "status": "success",
+    "data": {
+        "overall": {
+            "averageTechnicalScore": 0,
+            "averageSoftSkills": {
+                "communication": 0.67,
+                "confidence": 1,
+                "attitude": 1
+            },
+            "overallRating": null,
+            "totalAnswers": 3
+        },
+        "specific": [
+            {
+                "feedback": {
+                    "question": "What are Java access modifiers? Describe the differences among public, private, and protected.",
+                    "candidate_answer": "undefined",
+                    "feedback_on_candidate_answer": {
+                        "technical_evaluation": {
+                            "feedback": "The candidate did not answer the question.  Java access modifiers control the visibility and accessibility of class members (fields and methods).  A strong answer would have described each modifier: public, private, and protected, and explained their differences in terms of accessibility within the same class, subclasses, and other classes.",
+                            "score": 0
+                        },
+                        "soft_skills": {
+                            "communication": {
+                                "score": 0,
+                                "feedback": "No communication was observed as the candidate did not provide an answer."
+                            },
+                            "attitude": {
+                                "score": 0,
+                                "feedback": "Cannot assess attitude without a response."
+                            },
+                            "confidence": {
+                                "score": 0,
+                                "feedback": "Cannot assess confidence without a response."
+                            },
+                            "time_management": {
+                                "score": 0,
+                                "feedback": "Cannot assess time management without a response."
+                            },
+                            "overall_rating": 0
+                        }
+                    },
+                    "ideal_answer": "Java access modifiers control the accessibility of class members (fields and methods).  The four main access modifiers are:\n\n* **public:** Members declared as public are accessible from anywhere, from any class, even outside the package.\n* **private:** Members declared as private are only accessible from within the same class where they are declared. They are not accessible from subclasses or other classes.\n* **protected:** Members declared as protected are accessible within the same package and by subclasses (even if those subclasses are in a different package). They are not accessible by other classes outside the package that are not subclasses.\n* **default (package-private):** If no access modifier is specified, the member has package-private access. This means it's accessible from any class within the same package, but not from classes in other packages.\n\n**Differences:**\n\nThe key difference lies in the scope of accessibility:\n\n* **public** offers the widest access.\n* **private** offers the strictest access, limiting access to the declaring class only.\n* **protected** provides a middle ground, allowing access within the package and by subclasses.\n* **default/package-private** allows access within the package.",
+                    "summary": {
+                        "hiring_decision": "Not Recommended",
+                        "job_readiness_score": "1.0 out of 5.0",
+                        "areas_for_improvement": [
+                            "Understanding of Java fundamentals",
+                            "Ability to explain technical concepts clearly",
+                            "Practice answering common Java interview questions"
+                        ],
+                        "potential_fit": "Weak Fit"
+                    }
+                }
+            },
+            {
+                "feedback": {
+                    "question": "What is the difference between '== ' and '.equals()' in Java?",
+                    "candidate_answer": "Okay, like.",
+                    "feedback_on_candidate_answer": {
+                        "technical_evaluation": {
+                            "feedback": "The candidate's response is completely inadequate.  They didn't provide any explanation of the difference between '==' and '.equals()'. This demonstrates a significant lack of understanding of a fundamental Java concept.",
+                            "score": 0
+                        },
+                        "soft_skills": {
+                            "communication": {
+                                "score": 1,
+                                "feedback": "The response is extremely brief and unprofessional.  'Okay, like' is not an acceptable way to start answering a technical question.  Communication skills need significant improvement."
+                            },
+                            "attitude": {
+                                "score": 1,
+                                "feedback": "The lack of effort shown suggests a poor attitude towards the interview process.  The candidate didn't even attempt to answer the question."
+                            },
+                            "confidence": {
+                                "score": 1,
+                                "feedback": "The response reflects a lack of confidence and preparedness. The candidate seems unsure of even the basics."
+                            },
+                            "time_management": {
+                                "score": 2,
+                                "feedback": "While the response was quick, it was far too brief and didn't demonstrate any attempt to answer the question fully.  Time management isn't the primary issue here, but the answer demonstrates a lack of preparation and planning."
+                            },
+                            "overall_rating": 1
+                        }
+                    },
+                    "ideal_answer": "The '==' operator in Java compares references (memory addresses) for objects.  It checks if two object variables point to the same object in memory.  For primitive data types, it compares their values.\n\nThe '.equals()' method, on the other hand, is used to compare the content or state of objects.  It's defined in the Object class and needs to be overridden in custom classes to provide meaningful comparisons based on the class's attributes.  For String objects, '.equals()' compares the actual character sequences. \n\nTherefore, two different String objects with the same character sequence will be considered equal by '.equals()' but not by '=='.  However, for primitive data types, '==' and '.equals()' will yield the same result.",
+                    "summary": {
+                        "hiring_decision": "Not Recommended",
+                        "job_readiness_score": "1.0 out of 5.0",
+                        "areas_for_improvement": [
+                            "Java fundamentals (especially object comparison)",
+                            "Technical interviewing skills",
+                            "Communication skills",
+                            "Problem-solving abilities"
+                        ],
+                        "potential_fit": "Weak Fit"
+                    }
+                }
+            },
+            {
+                "feedback": {
+                    "question": "Explain the difference between abstract classes and interfaces in Java.",
+                    "candidate_answer": "My name is Dr. Pratik Agrawal. I am a final year student. I have completed my BTech with a CGP of 6.59. I am having the technical proficiency in Java, Python and cloud computing. That's it. Now you have to click next. Next question.",
+                    "feedback_on_candidate_answer": {
+                        "technical_evaluation": {
+                            "feedback": "The candidate failed to answer the technical question.  They provided irrelevant personal information instead of a technical explanation of abstract classes and interfaces. This demonstrates a significant lack of understanding of core Java concepts.",
+                            "score": 0
+                        },
+                        "soft_skills": {
+                            "communication": {
+                                "score": 1,
+                                "feedback": "Communication is poor. The answer is completely irrelevant to the question. The candidate did not demonstrate the ability to clearly and concisely explain a technical concept."
+                            },
+                            "attitude": {
+                                "score": 2,
+                                "feedback": "The candidate's attitude seems somewhat dismissive.  The 'That's it. Now you have to click next. Next question' statement suggests impatience and a lack of engagement with the interview process."
+                            },
+                            "confidence": {
+                                "score": 2,
+                                "feedback": "While the candidate mentions proficiency in Java, their inability to answer a basic Java question suggests a lack of actual confidence in their skills."
+                            },
+                            "time_management": {
+                                "score": 1,
+                                "feedback": "The candidate wasted time providing irrelevant information and showed poor time management by not attempting to answer the question."
+                            },
+                            "overall_rating": 1.2
+                        }
+                    },
+                    "ideal_answer": "Abstract classes and interfaces are both used for abstraction in Java, but they differ significantly:\n\n* **Abstract Classes:** Can have both abstract (methods without implementation) and concrete (methods with implementation) methods.  They can have instance variables.  A class can extend only one abstract class. Abstract classes are meant to be partially implemented blueprints.\n\n* **Interfaces:** Can only have abstract methods (since Java 8, they can also have default and static methods).  They cannot have instance variables (except static final constants). A class can implement multiple interfaces. Interfaces are purely abstract contracts specifying behaviour. \n\nIn short:  Abstract classes provide partial implementation, while interfaces provide complete abstraction.  Choose an abstract class when you want to provide some common functionality, and an interface when you want to define a contract that multiple unrelated classes can implement.",
+                    "summary": {
+                        "hiring_decision": "Not Recommended",
+                        "job_readiness_score": "1.2 out of 5.0",
+                        "areas_for_improvement": [
+                            "Improve understanding of core Java concepts (especially abstraction).",
+                            "Practice explaining technical concepts clearly and concisely.",
+                            "Work on interview skills, including demonstrating a positive and engaged attitude.",
+                            "Improve time management during interviews."
+                        ],
+                        "potential_fit": "Weak Fit"
+                    }
+                }
+            }
+        ]
+    }
+}
